@@ -1,0 +1,193 @@
+div{
+	overflow:auto;
+}
+.header {
+	background-color: #E1C2B7;
+	float: left;
+	width: 100%;
+	padding: 12px;
+	padding-left: 0px;
+}
+.header ul .mainHeader{
+	font-size: 33px;
+	vertical-align: middle;
+	font-family:'Fredericka the Great', cursive;
+}
+.header ul{
+	list-style: none;
+	padding: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+	text-align: left;
+	display: inline;
+}
+.header li{
+	display:inline;
+	padding: 10px;
+	color: black;
+}
+.header i{
+	color: black;
+}
+.submenu{
+	display: none;
+}
+.header .accountIcon li:hover .submenu{
+	display: block;
+	position: absolute;
+	background-color: #E1C2B7;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.header .accountIcon li:hover .submenu ul{
+	text-align: center;
+}
+.header .accountIcon li:hover .submenu ul li{
+	display: block;
+	padding: 12px;
+	width: 120px;
+}
+.header .accountIcon li:hover .submenu ul li a{
+	text-decoration: none;
+	color: black;
+}
+.header .accountIcon li:hover .submenu ul li:hover{
+	background-color: white;
+}
+.introBody{
+	right:10px;
+	padding:10px;
+	height: 570px;
+	background-image: url('./images/p1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+ 	background-opacity: 0.7;
+	width: 100%;
+}
+.introHead{
+	font-family:'Henny Penny';
+	text-indent: cursive;
+	color:#ABDED7;
+	float: center;
+	font-size: 28px;
+}
+.definition{
+	font-size: 22px;
+	color:#ABDED7;
+	font-family:Brush Script MT, serif;
+}
+.paraOne{
+	color:white;
+	font-size: 18px;
+	font-family:Verdana, serif;
+}
+ .signupBtn, .loginBtn{
+	 padding: 10px 30px;
+	 color:black;
+	 font-size: 15px;
+	 transition-duration: 0.4s;
+	 border-radius: 20px;
+	 background-color:#ABDED7;
+	 cursor:pointer;
+	 font-family: 'Rancho', serif;
+}
+.mainBody{
+	background-color: #E1C2B7;
+	height: 470px; 
+	width: 100%;
+	padding: 10px;
+}
+.headOne{
+	font-family:'Fredericka the Great', cursive;
+	font-size: 30px;
+}
+.headTwo{
+	font-size: 14px;
+	color: black;
+	font-family: Comic Sans MS, serif;
+}
+.headThree{
+	font-family:'Patrick Hand', cursive;
+	font-size: 20px;
+	font-weight: bold;"
+}
+.paraTwo{
+	font-family:'Crimson Text'; 
+	font-size: 22px;
+}
+.paraThree{
+	font-family:'Crimson Text', cursive;
+	font-size: 15px;
+}
+.footer{
+	width: 100%;
+	height:320px;
+	padding: 10px;
+	align-items: center;
+	background-color: #ABDED7;
+}
+.socials li{
+	display:inline;
+	padding: 10px;
+	margin: 0px;
+	color: black;
+}
+.socials, .contacts{
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+	vertical-align: default;
+	cursor: pointer;
+}
+.socials li i, .contacts li i{
+	color: black;
+}
+.contacts li{
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	color: black;
+}
+.contacts li i{
+	color: black;
+}
+.copyrightFoot{
+	font= 'Verdana';
+}
+.aboutBody{
+	background-color: #E1C2B7;
+	height: 350px; 
+	width: 100%;
+	padding: 10px;
+	padding-left: 5px;
+	margin: 0px;
+}
+.aboutImg{
+	float: right;
+	height:350px;
+	width:500px;
+}
+.infoBodyOne{
+	background-color: #ABDED7;
+	width: 100%;
+	height: 580px;
+	padding: 12px;
+	float: left;
+}
+.infoBodyTwo{
+	background-color: #E1C2B7; 
+	width: 100%; 
+	height: 550px;
+	padding: 12px;
+	padding-top: 2px;
+	float: left;
+}
+.diagnosisBtn{
+	font:Verdanna; 
+	font-size: 18px;
+	cursor: pointer;
+	right: 30px;
+	flex-direction: right;
+}
